@@ -1,0 +1,52 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url("./bg1.jpg");
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(18, 128, 172, 0.801);
+    
+    
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding-inline: 20px;
+}
+ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+main {
+    width: 80vw;
+    margin-inline: auto;
+
+}
+
+.about {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.heading span {
+    border-bottom: 5px solid red;
+}
+.about img {
+    height: 250px;
+    width: 250px;
+}
+.skills-container {
+    display: flex;
+    font-size: 22px;
+    gap: 1.2rem;
+    flex-wrap: wrap;
+}
